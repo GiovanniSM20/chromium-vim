@@ -18,23 +18,30 @@
 var Complete = {
 
   locales: {
+    de: {
+        tld: 'de',
+        requestUrl: ['google', 'youtube']
+        baseUrl: ['google', 'youtube']
+        apiUrl: ['google', 'youtube']
+
+    }
     uk: {
-      tld: 'co.uk',
-      requestUrl: ['google', 'youtube'],
-      baseUrl: ['google', 'youtube'],
-      apiUrl: ['google', 'youtube']
+        tld: 'co.uk',
+        requestUrl: ['google', 'youtube'],
+        baseUrl: ['google', 'youtube'],
+        apiUrl: ['google', 'youtube']
     },
     jp: {
-      tld: 'co.jp',
-      requestUrl: ['google', 'youtube'],
-      baseUrl: ['google', 'youtube'],
-      apiUrl: ['google', 'youtube']
+        tld: 'co.jp',
+        requestUrl: ['google', 'youtube'],
+        baseUrl: ['google', 'youtube'],
+        apiUrl: ['google', 'youtube']
     },
     aus: {
-      tld: 'com.au',
-      requestUrl: ['google', 'youtube'],
-      baseUrl: ['google', 'youtube'],
-      apiUrl: ['google', 'youtube']
+        tld: 'com.au',
+        requestUrl: ['google', 'youtube'],
+        baseUrl: ['google', 'youtube'],
+        apiUrl: ['google', 'youtube']
     }
   },
 
